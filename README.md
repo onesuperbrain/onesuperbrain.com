@@ -7,7 +7,6 @@ SuperBrain is a coding agent designed to ship code faster than any team on earth
 Problem statement - 
 The problem with current coding agents like Claude Code, Codex, and Cursor is that when you assign a task to them, they start searching, grepping, and reading your codebase blindly in the hope of finding the context they need. These coding agents are built on a fundamentally flawed abstraction.
 
-Because they search blindly, nearly 80% of the code is boilerplate, while only 20% contains business logic. Yet these agents spend the majority of their time and tokens reading everything. As a result, almost 80% of the tokens consumed are wasted, leading to higher costs and increased hallucinations.
 
 Solution - 
 We invented a new architecture called TokenFold. TokenFold creates a New  representation of the codebase, making context retrieval highly precise which reduces the wastage of tokens by 60-80%.
